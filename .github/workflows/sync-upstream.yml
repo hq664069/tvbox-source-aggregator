@@ -23,7 +23,7 @@ jobs:
       - name: Merge upstream into your branch
         run: |
           git config --global user.name "hq664069"
-          git config --global user.email "your-github-email@example.com"
+          git config --global user.email "lhanzbs855@gmail.com"
           git merge upstream/main --no-edit || true
 
       - name: Push merged changes back
